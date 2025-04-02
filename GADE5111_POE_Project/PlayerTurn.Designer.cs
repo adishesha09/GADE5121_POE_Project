@@ -119,7 +119,7 @@
             lblOpponentHP.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblOpponentHP.Location = new Point(113, 82);
             lblOpponentHP.Name = "lblOpponentHP";
-            lblOpponentHP.Size = new Size(71, 38);
+            lblOpponentHP.Size = new Size(61, 32);
             lblOpponentHP.TabIndex = 1;
             lblOpponentHP.Text = "HP: ";
             lblOpponentHP.TextAlign = ContentAlignment.TopCenter;
@@ -130,7 +130,7 @@
             lblOpponentName.Font = new Font("Sitka Banner", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblOpponentName.Location = new Point(59, 36);
             lblOpponentName.Name = "lblOpponentName";
-            lblOpponentName.Size = new Size(178, 35);
+            lblOpponentName.Size = new Size(149, 29);
             lblOpponentName.TabIndex = 0;
             lblOpponentName.Text = "Opponent's Name";
             // 
@@ -150,13 +150,14 @@
             // 
             txtBattleLog.Location = new Point(26, 36);
             txtBattleLog.Name = "txtBattleLog";
+            txtBattleLog.ReadOnly = true;
             txtBattleLog.Size = new Size(627, 139);
             txtBattleLog.TabIndex = 0;
             txtBattleLog.Text = "";
             // 
             // frmPlayerTurn
             // 
-            AutoScaleDimensions = new SizeF(15F, 38F);
+            AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
