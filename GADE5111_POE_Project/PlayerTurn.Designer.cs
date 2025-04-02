@@ -150,7 +150,6 @@
             // 
             txtBattleLog.Location = new Point(26, 36);
             txtBattleLog.Name = "txtBattleLog";
-            txtBattleLog.ReadOnly = true;
             txtBattleLog.Size = new Size(627, 139);
             txtBattleLog.TabIndex = 0;
             txtBattleLog.Text = "";
