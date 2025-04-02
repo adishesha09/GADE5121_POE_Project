@@ -67,18 +67,21 @@
             grpPlayer1.Controls.Add(txtPlayer1Name);
             grpPlayer1.Controls.Add(lblDragon1Name);
             grpPlayer1.Controls.Add(lblPlayer1Name);
-            grpPlayer1.Location = new Point(54, 51);
+            grpPlayer1.Location = new Point(43, 41);
+            grpPlayer1.Margin = new Padding(2, 2, 2, 2);
             grpPlayer1.Name = "grpPlayer1";
-            grpPlayer1.Size = new Size(476, 504);
+            grpPlayer1.Padding = new Padding(2, 2, 2, 2);
+            grpPlayer1.Size = new Size(381, 403);
             grpPlayer1.TabIndex = 1;
             grpPlayer1.TabStop = false;
             grpPlayer1.Text = "Player 1";
             // 
             // btnSave1
             // 
-            btnSave1.Location = new Point(24, 408);
+            btnSave1.Location = new Point(19, 326);
+            btnSave1.Margin = new Padding(2, 2, 2, 2);
             btnSave1.Name = "btnSave1";
-            btnSave1.Size = new Size(415, 43);
+            btnSave1.Size = new Size(332, 34);
             btnSave1.TabIndex = 5;
             btnSave1.Text = "Save";
             btnSave1.UseVisualStyleBackColor = true;
@@ -89,9 +92,11 @@
             grpPlayer1DragonType.Controls.Add(rbWind1);
             grpPlayer1DragonType.Controls.Add(rbIce1);
             grpPlayer1DragonType.Controls.Add(rbFire1);
-            grpPlayer1DragonType.Location = new Point(22, 140);
+            grpPlayer1DragonType.Location = new Point(18, 112);
+            grpPlayer1DragonType.Margin = new Padding(2, 2, 2, 2);
             grpPlayer1DragonType.Name = "grpPlayer1DragonType";
-            grpPlayer1DragonType.Size = new Size(417, 247);
+            grpPlayer1DragonType.Padding = new Padding(2, 2, 2, 2);
+            grpPlayer1DragonType.Size = new Size(334, 198);
             grpPlayer1DragonType.TabIndex = 4;
             grpPlayer1DragonType.TabStop = false;
             grpPlayer1DragonType.Text = "Dragon Type";
@@ -99,9 +104,10 @@
             // rbEarth1
             // 
             rbEarth1.AutoSize = true;
-            rbEarth1.Location = new Point(21, 149);
+            rbEarth1.Location = new Point(17, 119);
+            rbEarth1.Margin = new Padding(2, 2, 2, 2);
             rbEarth1.Name = "rbEarth1";
-            rbEarth1.Size = new Size(142, 29);
+            rbEarth1.Size = new Size(118, 24);
             rbEarth1.TabIndex = 3;
             rbEarth1.TabStop = true;
             rbEarth1.Text = "Earth Dragon";
@@ -110,9 +116,10 @@
             // rbWind1
             // 
             rbWind1.AutoSize = true;
-            rbWind1.Location = new Point(21, 114);
+            rbWind1.Location = new Point(17, 91);
+            rbWind1.Margin = new Padding(2, 2, 2, 2);
             rbWind1.Name = "rbWind1";
-            rbWind1.Size = new Size(144, 29);
+            rbWind1.Size = new Size(119, 24);
             rbWind1.TabIndex = 2;
             rbWind1.TabStop = true;
             rbWind1.Text = "Wind Dragon";
@@ -121,9 +128,10 @@
             // rbIce1
             // 
             rbIce1.AutoSize = true;
-            rbIce1.Location = new Point(21, 79);
+            rbIce1.Location = new Point(17, 63);
+            rbIce1.Margin = new Padding(2, 2, 2, 2);
             rbIce1.Name = "rbIce1";
-            rbIce1.Size = new Size(124, 29);
+            rbIce1.Size = new Size(103, 24);
             rbIce1.TabIndex = 1;
             rbIce1.TabStop = true;
             rbIce1.Text = "Ice Dragon";
@@ -132,9 +140,10 @@
             // rbFire1
             // 
             rbFire1.AutoSize = true;
-            rbFire1.Location = new Point(21, 44);
+            rbFire1.Location = new Point(17, 35);
+            rbFire1.Margin = new Padding(2, 2, 2, 2);
             rbFire1.Name = "rbFire1";
-            rbFire1.Size = new Size(130, 29);
+            rbFire1.Size = new Size(108, 24);
             rbFire1.TabIndex = 0;
             rbFire1.TabStop = true;
             rbFire1.Text = "Fire Dragon";
@@ -142,33 +151,39 @@
             // 
             // txtPlayer1Dragon
             // 
-            txtPlayer1Dragon.Location = new Point(169, 80);
+            txtPlayer1Dragon.Location = new Point(135, 64);
+            txtPlayer1Dragon.Margin = new Padding(2, 2, 2, 2);
+            txtPlayer1Dragon.MaxLength = 15;
             txtPlayer1Dragon.Name = "txtPlayer1Dragon";
-            txtPlayer1Dragon.Size = new Size(270, 31);
+            txtPlayer1Dragon.Size = new Size(217, 27);
             txtPlayer1Dragon.TabIndex = 3;
             // 
             // txtPlayer1Name
             // 
-            txtPlayer1Name.Location = new Point(169, 31);
+            txtPlayer1Name.Location = new Point(135, 25);
+            txtPlayer1Name.Margin = new Padding(2, 2, 2, 2);
+            txtPlayer1Name.MaxLength = 25;
             txtPlayer1Name.Name = "txtPlayer1Name";
-            txtPlayer1Name.Size = new Size(270, 31);
+            txtPlayer1Name.Size = new Size(217, 27);
             txtPlayer1Name.TabIndex = 2;
             // 
             // lblDragon1Name
             // 
             lblDragon1Name.AutoSize = true;
-            lblDragon1Name.Location = new Point(12, 78);
+            lblDragon1Name.Location = new Point(10, 62);
+            lblDragon1Name.Margin = new Padding(2, 0, 2, 0);
             lblDragon1Name.Name = "lblDragon1Name";
-            lblDragon1Name.Size = new Size(128, 25);
+            lblDragon1Name.Size = new Size(106, 20);
             lblDragon1Name.TabIndex = 1;
             lblDragon1Name.Text = "Dragon Name:";
             // 
             // lblPlayer1Name
             // 
             lblPlayer1Name.AutoSize = true;
-            lblPlayer1Name.Location = new Point(12, 34);
+            lblPlayer1Name.Location = new Point(10, 27);
+            lblPlayer1Name.Margin = new Padding(2, 0, 2, 0);
             lblPlayer1Name.Name = "lblPlayer1Name";
-            lblPlayer1Name.Size = new Size(115, 25);
+            lblPlayer1Name.Size = new Size(96, 20);
             lblPlayer1Name.TabIndex = 0;
             lblPlayer1Name.Text = "Player Name:";
             // 
@@ -180,18 +195,21 @@
             grpPlayer2.Controls.Add(txtPlayer2Name);
             grpPlayer2.Controls.Add(lblDragon2Name);
             grpPlayer2.Controls.Add(lblPlayer2Name);
-            grpPlayer2.Location = new Point(567, 51);
+            grpPlayer2.Location = new Point(454, 41);
+            grpPlayer2.Margin = new Padding(2, 2, 2, 2);
             grpPlayer2.Name = "grpPlayer2";
-            grpPlayer2.Size = new Size(476, 504);
+            grpPlayer2.Padding = new Padding(2, 2, 2, 2);
+            grpPlayer2.Size = new Size(381, 403);
             grpPlayer2.TabIndex = 2;
             grpPlayer2.TabStop = false;
             grpPlayer2.Text = "Player 2";
             // 
             // btnSave2
             // 
-            btnSave2.Location = new Point(20, 408);
+            btnSave2.Location = new Point(16, 326);
+            btnSave2.Margin = new Padding(2, 2, 2, 2);
             btnSave2.Name = "btnSave2";
-            btnSave2.Size = new Size(420, 43);
+            btnSave2.Size = new Size(336, 34);
             btnSave2.TabIndex = 4;
             btnSave2.Text = "Save";
             btnSave2.UseVisualStyleBackColor = true;
@@ -202,9 +220,11 @@
             grpPlayer2DragonType.Controls.Add(rbWind2);
             grpPlayer2DragonType.Controls.Add(rbIce2);
             grpPlayer2DragonType.Controls.Add(rbFire2);
-            grpPlayer2DragonType.Location = new Point(20, 139);
+            grpPlayer2DragonType.Location = new Point(16, 111);
+            grpPlayer2DragonType.Margin = new Padding(2, 2, 2, 2);
             grpPlayer2DragonType.Name = "grpPlayer2DragonType";
-            grpPlayer2DragonType.Size = new Size(420, 248);
+            grpPlayer2DragonType.Padding = new Padding(2, 2, 2, 2);
+            grpPlayer2DragonType.Size = new Size(336, 198);
             grpPlayer2DragonType.TabIndex = 3;
             grpPlayer2DragonType.TabStop = false;
             grpPlayer2DragonType.Text = "Dragon Type";
@@ -212,9 +232,10 @@
             // rbEarth2
             // 
             rbEarth2.AutoSize = true;
-            rbEarth2.Location = new Point(22, 150);
+            rbEarth2.Location = new Point(18, 120);
+            rbEarth2.Margin = new Padding(2, 2, 2, 2);
             rbEarth2.Name = "rbEarth2";
-            rbEarth2.Size = new Size(142, 29);
+            rbEarth2.Size = new Size(118, 24);
             rbEarth2.TabIndex = 3;
             rbEarth2.TabStop = true;
             rbEarth2.Text = "Earth Dragon";
@@ -223,9 +244,10 @@
             // rbWind2
             // 
             rbWind2.AutoSize = true;
-            rbWind2.Location = new Point(22, 115);
+            rbWind2.Location = new Point(18, 92);
+            rbWind2.Margin = new Padding(2, 2, 2, 2);
             rbWind2.Name = "rbWind2";
-            rbWind2.Size = new Size(144, 29);
+            rbWind2.Size = new Size(119, 24);
             rbWind2.TabIndex = 2;
             rbWind2.TabStop = true;
             rbWind2.Text = "Wind Dragon";
@@ -234,9 +256,10 @@
             // rbIce2
             // 
             rbIce2.AutoSize = true;
-            rbIce2.Location = new Point(22, 80);
+            rbIce2.Location = new Point(18, 64);
+            rbIce2.Margin = new Padding(2, 2, 2, 2);
             rbIce2.Name = "rbIce2";
-            rbIce2.Size = new Size(124, 29);
+            rbIce2.Size = new Size(103, 24);
             rbIce2.TabIndex = 1;
             rbIce2.TabStop = true;
             rbIce2.Text = "Ice Dragon";
@@ -245,9 +268,10 @@
             // rbFire2
             // 
             rbFire2.AutoSize = true;
-            rbFire2.Location = new Point(22, 45);
+            rbFire2.Location = new Point(18, 36);
+            rbFire2.Margin = new Padding(2, 2, 2, 2);
             rbFire2.Name = "rbFire2";
-            rbFire2.Size = new Size(130, 29);
+            rbFire2.Size = new Size(108, 24);
             rbFire2.TabIndex = 0;
             rbFire2.TabStop = true;
             rbFire2.Text = "Fire Dragon";
@@ -255,33 +279,39 @@
             // 
             // txtPlayer2Dragon
             // 
-            txtPlayer2Dragon.Location = new Point(170, 78);
+            txtPlayer2Dragon.Location = new Point(136, 62);
+            txtPlayer2Dragon.Margin = new Padding(2, 2, 2, 2);
+            txtPlayer2Dragon.MaxLength = 15;
             txtPlayer2Dragon.Name = "txtPlayer2Dragon";
-            txtPlayer2Dragon.Size = new Size(270, 31);
+            txtPlayer2Dragon.Size = new Size(217, 27);
             txtPlayer2Dragon.TabIndex = 2;
             // 
             // txtPlayer2Name
             // 
-            txtPlayer2Name.Location = new Point(170, 34);
+            txtPlayer2Name.Location = new Point(136, 27);
+            txtPlayer2Name.Margin = new Padding(2, 2, 2, 2);
+            txtPlayer2Name.MaxLength = 25;
             txtPlayer2Name.Name = "txtPlayer2Name";
-            txtPlayer2Name.Size = new Size(270, 31);
+            txtPlayer2Name.Size = new Size(217, 27);
             txtPlayer2Name.TabIndex = 1;
             // 
             // lblDragon2Name
             // 
             lblDragon2Name.AutoSize = true;
-            lblDragon2Name.Location = new Point(15, 78);
+            lblDragon2Name.Location = new Point(12, 62);
+            lblDragon2Name.Margin = new Padding(2, 0, 2, 0);
             lblDragon2Name.Name = "lblDragon2Name";
-            lblDragon2Name.Size = new Size(128, 25);
+            lblDragon2Name.Size = new Size(106, 20);
             lblDragon2Name.TabIndex = 0;
             lblDragon2Name.Text = "Dragon Name:";
             // 
             // lblPlayer2Name
             // 
             lblPlayer2Name.AutoSize = true;
-            lblPlayer2Name.Location = new Point(15, 31);
+            lblPlayer2Name.Location = new Point(12, 25);
+            lblPlayer2Name.Margin = new Padding(2, 0, 2, 0);
             lblPlayer2Name.Name = "lblPlayer2Name";
-            lblPlayer2Name.Size = new Size(115, 25);
+            lblPlayer2Name.Size = new Size(96, 20);
             lblPlayer2Name.TabIndex = 0;
             lblPlayer2Name.Text = "Player Name:";
             // 
@@ -289,17 +319,19 @@
             // 
             lblDragonStats.Font = new Font("Georgia", 12F, FontStyle.Bold);
             lblDragonStats.ForeColor = Color.Gold;
-            lblDragonStats.Location = new Point(1056, 51);
+            lblDragonStats.Location = new Point(845, 41);
+            lblDragonStats.Margin = new Padding(2, 0, 2, 0);
             lblDragonStats.Name = "lblDragonStats";
-            lblDragonStats.Size = new Size(276, 577);
+            lblDragonStats.Size = new Size(221, 462);
             lblDragonStats.TabIndex = 3;
             // 
             // btnStart
             // 
             btnStart.BackgroundImageLayout = ImageLayout.Stretch;
-            btnStart.Location = new Point(56, 570);
+            btnStart.Location = new Point(45, 456);
+            btnStart.Margin = new Padding(2, 2, 2, 2);
             btnStart.Name = "btnStart";
-            btnStart.Size = new Size(987, 58);
+            btnStart.Size = new Size(790, 46);
             btnStart.TabIndex = 4;
             btnStart.Text = "Start Game";
             btnStart.UseVisualStyleBackColor = true;
@@ -307,15 +339,16 @@
             // 
             // frmBattle
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1344, 664);
+            ClientSize = new Size(1075, 531);
             Controls.Add(btnStart);
             Controls.Add(lblDragonStats);
             Controls.Add(grpPlayer2);
             Controls.Add(grpPlayer1);
+            Margin = new Padding(2, 2, 2, 2);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmBattle";
